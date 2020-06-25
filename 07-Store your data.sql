@@ -51,5 +51,3 @@ CREATE TABLE family_films AS
 SELECT *
 FROM film
 WHERE rating IN ('G', 'PG');
-
-
