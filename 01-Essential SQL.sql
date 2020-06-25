@@ -24,5 +24,3 @@ INNER JOIN customer AS c
   ON p.customer_id = c.customer_id
 WHERE active = 'true'
 ORDER BY amount DESC;
-
-
