@@ -6,5 +6,3 @@ INNER JOIN rental AS r
   ON i.inventory_id = r.inventory_id
 GROUP BY title
 ORDER BY count DESC;
-
-
