@@ -16,5 +16,3 @@ INNER JOIN language AS l
 WHERE release_year = '2010'
   AND rating = 'G'
 GROUP BY name;
-
-
