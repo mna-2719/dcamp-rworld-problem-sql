@@ -19,5 +19,3 @@ FROM payment;
 SELECT payment_date,
   EXTRACT (HOUR FROM payment_date) AS payment_hour 
 FROM payment;
-
-
