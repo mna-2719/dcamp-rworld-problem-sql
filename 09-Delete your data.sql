@@ -19,5 +19,3 @@ WHERE film_id IN (
 -- Delete records from the `film` table that are either rated as R or NC-17.
 DELETE FROM film
 WHERE rating IN ('R', 'NC-17');
-
-
