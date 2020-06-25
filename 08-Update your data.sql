@@ -23,5 +23,3 @@ WHERE film_id IN
    INNER JOIN film_actor AS f
       ON a.actor_id = f.actor_id
    WHERE last_name IN ('WILLIS', 'CHASE', 'WINSLET', 'GUINESS', 'HUDSON'));
-
-
