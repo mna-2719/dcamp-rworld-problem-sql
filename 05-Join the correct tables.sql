@@ -38,5 +38,3 @@ INNER JOIN category AS c
 GROUP BY category
 -- Sort the results in ascending order by length
 ORDER BY average_length DESC;
-
-
